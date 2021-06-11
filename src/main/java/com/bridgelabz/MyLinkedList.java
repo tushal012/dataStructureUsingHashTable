@@ -98,6 +98,7 @@ public class MyLinkedList<K> {
             if (nextNode != tail) {
                 findNode.setNext(tempNode);
                 System.out.println("Linked List size after deleting element : " + size());
+
             }
         }
     }
